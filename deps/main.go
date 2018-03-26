@@ -1,0 +1,14 @@
+package main
+
+import (
+	"fmt"
+
+	"github.com/gobuffalo/packr"
+)
+
+func main() {
+	box := packr.NewBox(".")
+
+	s := box.String("code-prettify/distrib/prettify-small.zip")
+	fmt.Println(s)
+}
