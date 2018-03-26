@@ -190,3 +190,6 @@
 [submodule "deps/highlightjs"]
 	path = deps/highlightjs
 	url = https://github.com/isagalaev/highlight.js.git
+[submodule "deps/code-prettify"]
+	path = deps/code-prettify
+	url = https://github.com/google/code-prettify.git
