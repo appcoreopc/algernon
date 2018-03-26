@@ -187,3 +187,6 @@
 [submodule "vendor/github.com/go-sourcemap/sourcemap"]
 	path = vendor/github.com/go-sourcemap/sourcemap
 	url = https://github.com/go-sourcemap/sourcemap
+[submodule "deps/highlightjs"]
+	path = deps/highlightjs
+	url = https://github.com/isagalaev/highlight.js.git
