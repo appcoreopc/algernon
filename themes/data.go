@@ -1,9 +1,9 @@
 package themes
 
 var (
-	// builtinCodeStyles is a map of the themes names corresponding to highlight.js styles
-	// See https://github.com/isagalaev/highlight.js/tree/master/src/styles for more styles
-	builtinCodeStyles = map[string]string{"gray": "color-brewer", "dark": "ocean", "redbox": "railscasts", "bw": "github", "wing": "github", "material": "atom-one-light", "neon": "hybrid"}
+	// builtinCodeStyles is a map of the themes names corresponding to chroma styles
+	// See the Chroma Style Gallery for more styles: https://xyproto.github.io/splash/docs/
+	builtinCodeStyles = map[string]string{"gray": "github", "dark": "monokai", "redbox": "fruity", "bw": "github", "wing": "github", "material": "monokailight", "neon": "tango"}
 
 	// Themes is a map over the available built-in CSS themes. Corresponds with the font themes below.
 	// "default" and "gray" are equal. "default" should never be used directly, but is here as a safeguard.
